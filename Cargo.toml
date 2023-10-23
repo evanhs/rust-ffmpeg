@@ -122,6 +122,6 @@ version = "0.23"
 optional = true
 
 [dependencies.ffmpeg-sys-next]
-git = "https://github.com/remotion-dev/rust-ffmpeg-sys"
-rev = "77ed909d917cc3b2fdc2ef0cf48ee12d6eaad8bd"
+git = "https://github.com/evanhs/rust-ffmpeg-sys.git"
+branch = "workaround-ci-limits"
 default-features = false
